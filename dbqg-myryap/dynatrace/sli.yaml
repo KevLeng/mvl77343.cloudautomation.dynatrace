@@ -6,6 +6,7 @@ indicators:
   proc_count: MV2;Count;metricSelector=builtin:tech.generic.processCount:merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE)
   process_cpu: MV2;Percent;metricSelector=builtin:tech.generic.cpu.usage:merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE)
   process_memory: MV2;Byte;metricSelector=builtin:tech.generic.mem.workingSetSize:merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE)
+  service_cpu: MV2;MicroSecond;metricSelector=builtin:service.cpu.perRequest:merge(0):avg:names
   svc_fr: MV2;Percent;metricSelector=builtin:service.errors.server.rate:merge(0):avg:names&entitySelector=type(SERVICE)
   svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge(0):percentile(50.000000):names&entitySelector=type(SERVICE)
   svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge(0):percentile(90.000000):names&entitySelector=type(SERVICE)
