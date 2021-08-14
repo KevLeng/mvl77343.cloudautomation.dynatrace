@@ -119,6 +119,726 @@ objectives:
     - <50
   weight: 1
   key_sli: false
+- sli: service_rt_tnt-keayu-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-adiran-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-seona-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-leepri-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-prabeg-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-grawil-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sihtan-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-yanhua-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-dhrraj-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-kevlen-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-rafkat-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-andpat-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-katsum-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-kevlen-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-nikjai-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-micxue-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-anomoh-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-hiraok-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-willai-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-hiraok-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-willai-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sivvad-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-junkim-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-abranu-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-nikjai-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-katsum-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-graeng-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-harhiy-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-nalagr-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-dhrraj-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-myryap-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-enrcho-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-jormac-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-chrcha-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-jasnai-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-nalagr-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-adiran-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-yougao-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-vintan-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-amrraj-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-grawil-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-enrcho-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-micxue-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-yougao-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-yanhua-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-shisiv-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-marfet-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-mitgan-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-keayu-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-pagzha-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-vintan-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-chrcha-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-seona-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-marfet-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-rafkat-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-weima-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-prabeg-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-amrraj-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-mitgan-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-graeng-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-anomoh-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-myryap-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-harhiy-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-jormac-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-abranu-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sihtan-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-braneo-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sidgov-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-ashswa-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-andpat-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sidgov-svc-*.delivery-demo-staging
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
+- sli: service_rt_tnt-sivvad-svc-*.delivery-demo-production
+  displayName: ""
+  pass:
+  - criteria:
+    - <200
+  warning:
+  - criteria:
+    - <500
+  weight: 1
+  key_sli: false
 total_score:
   pass: 90%
   warning: 70%
