@@ -800,6 +800,46 @@
         },
         "filtersPerEntityType": null
       }
+    },
+    {
+      "name": "Service CPU;sli=service_cpu;pass=\u003c20;warning=\u003c50;key=false",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "Data explorer results",
+      "Markdown": "",
+      "bounds": {
+        "top": 342,
+        "left": 1596,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {
+        "timeframe": ""
+      },
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.cpu.perRequest",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": []
+        }
+      ],
+      "assignedEntities": null,
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": null
+      }
     }
   ]
 }
