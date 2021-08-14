@@ -3,7 +3,7 @@
     "configurationVersions": [
       5
     ],
-    "clusterVersion": "1.224.52.20210811-122244"
+    "clusterVersion": "1.224.64.20210813-140910"
   },
   "id": "fe311eac-455b-4e9c-baf5-561d29dd32d5",
   "dashboardMetadata": {
@@ -812,8 +812,8 @@
       "bounds": {
         "top": 342,
         "left": 1596,
-        "width": 304,
-        "height": 304
+        "width": 456,
+        "height": 228
       },
       "tileFilter": {
         "timeframe": ""
@@ -825,6 +825,48 @@
           "spaceAggregation": "AVG",
           "timeAggregation": "DEFAULT",
           "splitBy": []
+        }
+      ],
+      "assignedEntities": null,
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": null
+      }
+    },
+    {
+      "name": "Service Response;sli=service_rt;pass=\u003c200;warning=\u003c500;key=false",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "Data explorer results",
+      "Markdown": "",
+      "bounds": {
+        "top": 570,
+        "left": 1596,
+        "width": 456,
+        "height": 304
+      },
+      "tileFilter": {
+        "timeframe": ""
+      },
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.response.server",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ]
         }
       ],
       "assignedEntities": null,
